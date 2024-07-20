@@ -1,0 +1,19 @@
+{"level":"info","message":"User created: Theophas37","timestamp":"2024-07-19T15:13:49.500Z"}
+{"level":"info","message":"Login successful for user: Theophas37","timestamp":"2024-07-19T15:15:47.209Z"}
+{"level":"info","message":"Login successful for user: Theophas37","timestamp":"2024-07-20T12:40:19.487Z"}
+{"level":"error","message":"Error transferring funds: One or both accounts not found","timestamp":"2024-07-20T13:38:13.486Z"}
+{"level":"error","message":"Error transferring funds: One or both accounts not found","timestamp":"2024-07-20T13:40:14.728Z"}
+{"level":"info","message":"Login successful for user: Theophas37","timestamp":"2024-07-20T13:42:32.683Z"}
+{"level":"info","message":"Login successful for user: Theophas37","timestamp":"2024-07-20T13:48:09.282Z"}
+{"level":"info","message":"Login successful for user: Theophas37","timestamp":"2024-07-20T15:20:21.877Z"}
+{"level":"error","message":"Error transferring funds: null value in column \"from_account_id\" of relation \"Transactions\" violates not-null constraint","timestamp":"2024-07-20T15:30:52.922Z"}
+{"level":"error","message":"Error transferring funds: null value in column \"from_account_id\" of relation \"Transactions\" violates not-null constraint","timestamp":"2024-07-20T15:33:20.364Z"}
+{"amount":1000,"fromAccountId":"68896ee8-938b-4eb8-bdea-27177527533e","level":"info","message":"Tranfer completed","timestamp":"2024-07-20T15:36:17.578Z","toAccountId":"6629776c-5673-4d3f-a498-94920be59ab3"}
+{"level":"error","message":"Error depositing funds: null value in column \"from_account_id\" of relation \"Transactions\" violates not-null constraint","timestamp":"2024-07-20T16:03:23.303Z"}
+{"level":"error","message":"Error depositing funds: relation \"Transactions\" does not exist","timestamp":"2024-07-20T16:05:32.419Z"}
+{"accountId":"6629776c-5673-4d3f-a498-94920be59ab3","amount":1000,"level":"info","message":"Deposit completed","timestamp":"2024-07-20T16:06:41.290Z"}
+{"level":"info","message":"Login successful for user: Theophas37","timestamp":"2024-07-20T16:31:05.344Z"}
+{"level":"error","message":"Error withdrawing funds: Account not found","timestamp":"2024-07-20T16:31:41.253Z"}
+{"level":"error","message":"Error withdrawing funds: Account not found","timestamp":"2024-07-20T16:33:07.026Z"}
+{"accountId":"6629776c-5673-4d3f-a498-94920be59ab3","amount":1000,"level":"info","message":"Withdrawal completed","timestamp":"2024-07-20T16:41:39.165Z"}
+{"amount":1000,"fromAccountId":"6629776c-5673-4d3f-a498-94920be59ab3","level":"info","message":"Bill payment completed","timestamp":"2024-07-20T16:56:13.998Z"}
