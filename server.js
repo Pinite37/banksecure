@@ -1,4 +1,6 @@
 const express = require('express');
+const cookieParser = require('cookie-parser');
+const csrf = require('csurf');
 const { sequelize } = require('./src/utils/db');
 const helmet = require('helmet');
 const https = require('https');
@@ -13,6 +15,15 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(helmet());
+app.use(cookieParser());
+
+const csrfProtection = csrf({ cookie: true });
+app.use(csrfProtection);
+
+app.use((req, res, next) => {
+    res.locals.csrfToken = req.csrfToken();
+    next();
+})
 
 
 app.use('/auth', authRoutes)
